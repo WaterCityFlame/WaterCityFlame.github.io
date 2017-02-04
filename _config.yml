@@ -1,0 +1,25 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+title: Water City Flame
+owner: Margaret 
+email: watercityflame@outlook.com
+description: > # this means to ignore newlines until "baseurl:"
+  Welcome to my (Margaret's) blog. I write about software (mostly) and related things (math, hardware). This site is under construction while I get my act together.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://www.watercityflame.com" # the base hostname & protocol for your site
+github_username:  WaterCityFlame
+permalink: /:slug/
+
+# Build settings
+markdown: kramdown
+
+exclude: 
+- feed.xml
+- README.md
+

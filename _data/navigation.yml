@@ -1,0 +1,6 @@
+main:
+        - title: get in touch
+          url: /contact/
+        - title: about
+          url: /about/
+
