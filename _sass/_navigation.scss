@@ -21,6 +21,9 @@
 		line-height: $base-line-height;
 		display: block;
 		margin-left: 20px;
+		&:hover {
+			color: red;
+		}
 	}
 
 }

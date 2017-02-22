@@ -3,7 +3,7 @@
  * Site footer
  */
 .site-footer {
-    border-top: 1px solid $grey-color-light;
+    border-top: 1px solid $red;
     padding: $spacing-unit 0;
 }
 
@@ -84,7 +84,6 @@
 	margin-left: 0;
 	list-style: none;
 
-
 }
 
 .post-list li:nth-child(2n) {
@@ -130,9 +129,7 @@
     margin-bottom: $spacing-unit;
     display: block;
     > img {
-	    width: 560px;
-	    margin: 0 auto;
-	    text-align: center;
+	    width: 100%;
     }
 }
 
@@ -140,6 +137,7 @@
     font-size: 42px;
     letter-spacing: -1px;
     line-height: 1;
+    color: $base-color;
 
     @include media-query($on-laptop) {
         font-size: 36px;
